@@ -18,10 +18,10 @@ public class Payment {
     private String type;
 
     @Column(nullable = false)
-    private int discount;
+    private Integer discount;
 
     @Column(nullable = false)
-    private boolean status;
+    private Boolean status;
 
 
 }
